@@ -23,6 +23,6 @@ export class FolderPage implements OnInit {
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id') as string;
 
-    this.peliculas = this.peliculasManager.getMovies();
+    //this.peliculas = this.peliculasManager.getMovies();
   }
 }
